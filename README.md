@@ -2,7 +2,7 @@
 
 ## 🎬 About This Project
 
-This prototype was developed as a **portfolio demonstration** to showcase my experience as a **Gameplay Programmer**. The project was built exclusively for **Unreal Engine 5** and was archived after the studio decided to cancel further development. Even though the full game never reached release, the prototype still demonstrates solid networking, combat, and level design principles.
+This prototype showcases my work as a Gameplay Programmer using Unreal Engine 5. It was developed as part of a studio project and focuses on the implementation of core gameplay systems such as networking, combat mechanics, and level design. Although the project is currently on hold, the prototype highlights the technical foundation and gameplay architecture built during development.
 
 **My role:**  
 > **Role:** Primary Gameplay Programmer  
