@@ -4,7 +4,7 @@ A fast-paced multiplayer brawler game built with Unreal Engine 5. Experience int
 
 ## 🔄 Demo in action
 
-![Gameplay Demo](gameplayFirstMap.gif)
+![GameplayDemo](Images/gameplayFirstMap.gif)
 
 ## 🎮 Game Overview
 
