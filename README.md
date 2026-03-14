@@ -20,10 +20,10 @@ This prototype was developed as a **portfolio demonstration** to showcase my exp
 
 | Description | GIF |
 |-------------|-----|
-| Clean 1v1 fight – Map A | ![Demo1](Images/CleanFight_MapA.gif) |
-| Clean 1v1 fight – Map B | ![Demo2](Images/CleanFight_MapB.gif) |
-| Hit‑box debug – Map A | ![Demo3](Images/Hitbox_MapA.gif) |
-| Hit‑box debug – Map B | ![Demo4](Images/Hitbox_MapB.gif) |
+| Clean 1v1 fight – Map A | ![Demo1](Images/gameplayFirstMap.gif) |
+| Clean 1v1 fight – Map B | ![Demo2](Images/gameplaySecondMap.gif) |
+| Hit‑box debug – Map A | ![Demo3](Images/gameplayFirstMap2.gif) |
+| Hit‑box debug – Map B | ![Demo4](Images/gameplaySecondMap2.gif) |
 
 > **Note:** All four GIFs showcase the same core mechanics but on **different arena maps** (two distinct environments) to illustrate level modularity and consistent gameplay across stages.
 
