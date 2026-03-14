@@ -1,5 +1,4 @@
-# Fighting Game Prototype  
-*A portfolio showcase of a short-lived team project, fully functional up until its cancellation.*
+# Fighting Game Prototype
 
 ---
 
