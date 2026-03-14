@@ -6,7 +6,7 @@ This prototype was developed as a **portfolio demonstration** to showcase my exp
 
 **My role:**  
 > **Role:** Primary Gameplay Programmer  
-> • Developed the core gameplay architecture and systems in **Unreal Engine 5 using C++.  
+> • Developed the core gameplay architecture and systems in Unreal Engine 5 using C++.  
 > • Implemented character movement, combat mechanics, and attack logic.  
 > • Designed the turn-based hit-box system used for combat resolution.  
 > • Built the networking foundation including client-side prediction and server reconciliation.  
