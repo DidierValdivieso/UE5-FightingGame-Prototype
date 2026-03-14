@@ -1,79 +1,52 @@
-# Fighting Game Prototype
+# Fighting Game Prototype  
+*A portfolio showcase of a short-lived team project, fully functional up until its cancellation.*
 
-A fast-paced multiplayer brawler game built with Unreal Engine 5. Experience intense combat in a world where ancient powers clash.
+---
 
-## 🔄 Demo in action
+## 🎬 About This Project
 
-![GameplayDemo](Images/gameplayFirstMap.gif)
+This prototype was developed as a **portfolio demonstration** to showcase my experience as a **Gameplay Programmer**. The project was built exclusively for **Unreal Engine 5** and was archived after the studio decided to cancel further development. Even though the full game never reached release, the prototype still demonstrates solid networking, combat, and level design principles.
 
-## 🎮 Game Overview
+**My role:**  
+> **Role:** Gameplay Programmer  
+> • Implemented the character movement and combat systems.  
+> • Designed and coded the turn‑based hit‑box system.  
+> • Developed client‑side prediction and server reconciliation logic.  
+> • Integrated network‑synchronized animations and effects.
 
-Fighting Game is an action-packed multiplayer brawler game featuring:
-- Intense 1v1 and team-based combat
-- Unique character abilities based on ancient powers
-- Dynamic arena environments
-- Real-time multiplayer gameplay with netcode support
+---
 
-## 🔧 Features
+## 🎨 Visual Highlights
 
-### Core Gameplay
-- **Character Movement System**: Smooth character controls with dash, jump, and wall-run mechanics
-- **Combat System**: Combo-based attacks, special abilities, and environmental interactions
-- **Power-up System**: Temporary buffs and status effects during matches
-- **Arena Design**: Multiple themed environments with interactive elements
+| Description | GIF |
+|-------------|-----|
+| Clean 1v1 fight – Map A | ![Demo1](Images/CleanFight_MapA.gif) |
+| Clean 1v1 fight – Map B | ![Demo2](Images/CleanFight_MapB.gif) |
+| Hit‑box debug – Map A | ![Demo3](Images/Hitbox_MapA.gif) |
+| Hit‑box debug – Map B | ![Demo4](Images/Hitbox_MapB.gif) |
 
-### Netcode Implementation
-- **Client-Server Architecture**: Reliable server-authoritative gameplay
-- **Prediction & Correction**: Smooth client-side prediction with server reconciliation
-- **Lag Compensation**: Bullet time and hit registration systems
-- **Network Synchronization**: Character states, animations, and combat events
-- **Matchmaking System**: Real-time lobby creation and connection handling
+> **Note:** All four GIFs showcase the same core mechanics but on **different arena maps** (two distinct environments) to illustrate level modularity and consistent gameplay across stages.
 
-### Technical Features
-- **Unreal Engine 5**: Utilizing the latest engine features for optimal performance
-- **Blueprints & C++**: Hybrid development approach for flexibility
-- **Asset Management**: Modular content system with proper asset organization
-- **UI/UX Design**: Intuitive interfaces for gameplay and menus
+---
 
-## 📁 Project Structure
+## 🚀 Game Overview
+
+- **Gameplay:** 1v1 and small‑team brawler combat featuring dash, jump, wall‑run, combos, and special abilities.  
+- **Arena Design:** Two thematic maps, each with interactive elements that influence combat flow.  
+- **Network Architecture:** Authoritative server model with client‑side prediction, hit‑box reconciliation, and lag‑compensation.  
+- **Technology:** Unreal Engine 5 (C++ + Blueprints) with a custom UDP protocol and TCP fallback.
+
+---
+
+## 🧩 Project Structure
 
 ```
 FightingGamePrototype/
-├── Config/              # Game configuration files
-├── Content/             # Game assets, textures, sounds, etc.
-├── Source/              # C++ source code
-│   ├── FightingGamePrototype/  # Main game module
-│   └── FightingGamePrototypeEditor/  # Editor extensions
-├── .gitignore           # Git ignore patterns
-└── README.md            # This file
-```
-
-## 🚀 Future Development
-
-### Planned Features
-- Cross-platform multiplayer support
-- Character customization system
-- Ranked matchmaking system
-- Tournament mode
-- Additional arena maps
-- Voice chat integration
-
-### Performance Improvements
-- Optimized network packet compression
-- Enhanced client-side prediction algorithms
-- Improved server load balancing
-
-## 📊 Technical Specifications
-
-### Network Protocol
-- **Protocol**: Custom UDP-based protocol with TCP fallback
-- **Latency**: < 50ms average in optimal conditions
-- **Bandwidth**: ~100KB/s per player during active gameplay
-
-## 🎯 Game Design Philosophy
-
-Fighting Game focuses on:
-- **Accessibility**: Simple controls with deep strategic depth
-- **Competitive Balance**: Regular balancing updates based on community feedback
-- **Performance**: Smooth gameplay at 60+ FPS
-- **Scalability**: Modular design for easy feature additions
+├── Config/               # Game configuration files
+├── Content/               # Assets: textures, sounds, animations, etc.
+├── Source/
+│   ├── FightingGamePrototype/          # Main module
+│   └── FightingGamePrototypeEditor/  # Editor tools
+├── Images/                # GIFs used in this README
+├── .gitignore
+└── README.md
