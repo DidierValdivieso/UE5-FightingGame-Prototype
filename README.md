@@ -5,11 +5,12 @@
 This prototype was developed as a **portfolio demonstration** to showcase my experience as a **Gameplay Programmer**. The project was built exclusively for **Unreal Engine 5** and was archived after the studio decided to cancel further development. Even though the full game never reached release, the prototype still demonstrates solid networking, combat, and level design principles.
 
 **My role:**  
-> **Role:** Gameplay Programmer  
-> • Implemented the character movement and combat systems.  
-> • Designed and coded the turn‑based hit‑box system.  
-> • Developed client‑side prediction and server reconciliation logic.  
-> • Integrated network‑synchronized animations and effects.
+> **Role:** Primary Gameplay Programmer 
+> • Developed the core gameplay architecture and systems in **Unreal Engine 5 using C++.  
+> • Implemented character movement, combat mechanics, and attack logic.  
+> • Designed the turn-based hit-box system used for combat resolution.
+> • Built the networking foundation including client-side prediction and server reconciliation.
+> • Integrated animation systems and synchronized gameplay events across the network.
 
 ---
 
