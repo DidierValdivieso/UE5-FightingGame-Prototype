@@ -2,6 +2,10 @@
 
 A fast-paced multiplayer brawler game built with Unreal Engine 5. Experience intense combat in a world where ancient powers clash.
 
+## 🔄 Demo in action
+
+![Gameplay Demo](gameplayFirstMap.gif)
+
 ## 🎮 Game Overview
 
 Fighting Game is an action-packed multiplayer brawler game featuring:
