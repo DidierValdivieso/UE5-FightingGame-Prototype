@@ -1,7 +1,5 @@
 # Fighting Game Prototype
 
----
-
 ## 🎬 About This Project
 
 This prototype was developed as a **portfolio demonstration** to showcase my experience as a **Gameplay Programmer**. The project was built exclusively for **Unreal Engine 5** and was archived after the studio decided to cancel further development. Even though the full game never reached release, the prototype still demonstrates solid networking, combat, and level design principles.
